@@ -26,5 +26,17 @@
         ]
       }
     }
+  ],
+  "dataGroups": [
+    {
+      "name": "api-perform",
+      "urls": ["https://dummyjson.com/products/1"],
+      "cacheConfig": {
+        "strategy": "performance",
+        "maxSize": 100,
+        "maxAge": "1d",
+        "timeout": "10s"
+      }
+    }
   ]
 }
