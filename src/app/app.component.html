@@ -1,1 +1,14 @@
 <h1>Hello This is PWA application created by Rudolf !</h1>
+
+
+@if (product) {
+    <div>
+        BRAND: {{ product.brand }}
+        CATEGORY: {{ product.category }}
+        DESCRIPTION {{ product.description }}
+    
+        @for (item of product.images; track $index) {
+            <img [src]="item">
+        }
+    </div>
+}
