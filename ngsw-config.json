@@ -30,7 +30,9 @@
   "dataGroups": [
     {
       "name": "api-perform",
-      "urls": ["https://dummyjson.com/products/1"],
+      "urls":[
+        "https://firebasestorage.googleapis.com/v0/b/*"
+      ],
       "cacheConfig": {
         "strategy": "performance",
         "maxSize": 100,
